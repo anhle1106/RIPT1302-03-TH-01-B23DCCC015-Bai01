@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đồng hồ đếm</title>
+<link rel="stylesheet" href="dongho.css">
+<script src="dongho.js"></script>
+</head>
+<body>
+<div id="clockContainer">
+  <span class="timeUnit" id="hour">00</span>
+  <span class="space">:</span>
+  <span class="timeUnit" id="minute">00</span>
+  <span class="space">:</span>
+  <span class="timeUnit" id="second">00</span>
+  <div id="buttons">
+    <button id="startButton" onclick="startClock()">Start</button>
+    <button id="stopButton" onclick="stopClock()">Stop</button>
+    <button id="reset" onclick="resetClock()">Reset</button>
+  </div>
+</div>
+</body>
+</html>
